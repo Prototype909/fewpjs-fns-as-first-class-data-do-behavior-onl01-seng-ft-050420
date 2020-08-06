@@ -8,6 +8,8 @@ function handleClick(e) {
 }
 
 /* End Given Code, don't edit above here...*/
-
+function displayMessage(msg) {
+  document.getElementById("greeting").innerText = msg;
+}
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
